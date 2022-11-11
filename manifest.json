@@ -2,5 +2,19 @@
     "manifest_version": 3,
     "name": "Reading time",
     "version": "1.0",
-    "description": "Add the reading time to Chrome Extension documentation articles"
+    "description": "Add the reading time to Chrome Extension documentation articles",
+    "icons": {
+        "16": "images/smallBookCheck.png",
+        "32": "images/mediumBookCheckmark.png",
+        "48": "images/bookCheckmark.png",
+        "128": "images/finalBookTime.png"
+    },
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": [
+                
+            ]
+        }
+    ]
 }
